@@ -1,4 +1,5 @@
 import java.util.Arrays;
+
 class Solution {
     public double solution1(int[] arr) {
         double answer = Arrays.stream(arr).average().getAsDouble();
