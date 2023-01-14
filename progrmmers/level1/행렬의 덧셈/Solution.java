@@ -14,6 +14,7 @@ class Solution {
     return answer;
   }
 
+  //2차행렬 계산
   public static void main(String args[]) {
     int[][] arr1 = { { 1, 2 }, { 2, 3 } };
     int[][] arr2 = { { 1, 2 }, { 2, 3 } };

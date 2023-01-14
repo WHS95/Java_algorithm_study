@@ -1,5 +1,6 @@
 import java.util.Arrays;
 
+//배열평균값구하기
 class Solution {
     public double solution1(int[] arr) {
         double answer = Arrays.stream(arr).average().getAsDouble();
