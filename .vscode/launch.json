@@ -6,12 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
             "name": "Launch Solution",
             "request": "launch",
             "mainClass": "Solution",
@@ -19,9 +13,9 @@
         },
         {
             "type": "java",
-            "name": "Launch Solution(1)",
+            "name": "Launch Solution",
             "request": "launch",
-            "mainClass": "progrmmers.level1.별찍기.Solution",
+            "mainClass": "progrmmers.level1.이상한문자만들기.Solution",
             "projectName": "algorithm_99681c22"
         }
     ]

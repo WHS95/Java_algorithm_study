@@ -1,5 +1,3 @@
-
-
 public class Solution {
     public long solution(int n) {
         long answer = 0;
@@ -13,7 +11,7 @@ public class Solution {
 }
 
 
-//자바 숫자 배열로 만드는방법
+//자바 숫자 배열로 만드는방법 1)
 // int num = 12345;
 // String strNum = Integer.toString(num);
 // int[] arrNum = new int[strNum.length()];
@@ -23,6 +21,15 @@ public class Solution {
 // System.out.print(Arrays.toString(arrNum));
 // https://frhyme.github.io/java/java_basic02_char_to_int/
 
+
+//자바 숫자 배열로 만드는방법 2)
+// int num = 12345;
+// ArrayList<Integer> arrNum = new ArrayList<>();
+// while(num > 0) {
+// 	arrNum.add(num %10);
+// 	num /= 10;
+// }
+// System.out.println(arrNum);
 
 //자바 문자열 배열로 만드는법
 //String s ="abcdefg"
